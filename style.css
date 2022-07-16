@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+	background-color: black;
+	
+	cursor: crosshair;
+	
+}
+
+
+header h1{
+	font-family: 'Inconsolata', monospace;
+	text-align: center;
+	margin: auto;
+	
+	color: rgb(0, 255, 0);
+	font-size: 50px;
+
+}
+
+div#options{
+	
+	
+	font-family: 'Inconsolata', monospace;
+	
+	width: 800px;
+	height: 30px;
+	margin: auto;
+	color: white;
+}
+
+div#timer{
+	float: left;
+	font-size: 25px;
+}
+
+div#counter{
+	float: right;
+	font-size: 25px;
+}
+
+div#main{
+	border: 1px solid white;
+	background-color: black;
+	
+	height: 90vh;
+	width: calc(100vw - 1% - 1px);
+	margin: auto;
+}
+
+button#startButton{
+	background-color: white;
+	width: 80px;
+	height: 40px;
+	font-size: 25px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	
+	box-shadow: 0 0 10px  green;
+}
+
+
+div#target{
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background-color: rgb(0, 255, 98);
+	display: none;
+}
